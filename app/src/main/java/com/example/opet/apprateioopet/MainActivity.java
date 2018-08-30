@@ -7,7 +7,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
@@ -22,6 +21,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Comentário
         editComanda = findViewById(R.id.editComanda);
         editPessoas = findViewById(R.id.editPessoas);
         textRateio = findViewById(R.id.textRateio);
